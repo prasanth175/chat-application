@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prasanth175/chat-application.git/static/css/main.f89305d4.css",
+    "main.js": "/prasanth175/chat-application.git/static/js/main.0c695fe4.js",
+    "index.html": "/prasanth175/chat-application.git/index.html",
+    "main.f89305d4.css.map": "/prasanth175/chat-application.git/static/css/main.f89305d4.css.map",
+    "main.0c695fe4.js.map": "/prasanth175/chat-application.git/static/js/main.0c695fe4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f89305d4.css",
+    "static/js/main.0c695fe4.js"
+  ]
+}
