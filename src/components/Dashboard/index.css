@@ -1,0 +1,88 @@
+.dashboard{
+    width: 20vw;
+    background-color: #ffffff;
+    box-shadow: 4px 8px 16px 0px #ffffff;
+    padding: 20px;
+}
+
+.dashboard-profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.conversations-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.plus-img{
+    height: 20px;
+    width: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+.conversations-heading{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    color: grey;
+    letter-spacing: 1px;
+}
+
+.conversations-item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+.profile-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    background-color: greenyellow;
+    margin-right: 10px;
+}
+
+.profile-container{
+    font-family: 'Montserrat';
+}
+
+.name{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.profession{
+    color: grey;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.hash{
+    background-color: rgb(227, 225, 225);
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.group-name{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+}

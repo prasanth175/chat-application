@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  margin: 0px;
+}
+
+button{
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input{
+  border-width: 0px;
+}
+
+input:focus{
+  outline: none;
+}
+
+p, h1,h2,h3,h4,h5,h6{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul{
+  padding-left: 0px;
+}
+
+li{
+  list-style-type: none;
+}

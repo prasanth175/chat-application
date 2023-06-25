@@ -1,0 +1,193 @@
+.chat-container {
+    background-color: rgb(228, 237, 246);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    height: 100vh; /* Set a fixed height */
+    box-sizing: border-box; /* Include padding and borders in the height calculation */
+  }
+  
+  .chat-top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .intro-heading {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .intro-txt {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: grey;
+    font-weight: 400;
+  }
+  
+  .users-container {
+    display: flex;
+    align-items: center;
+    color: grey;
+  }
+  
+  .users-count {
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin-right: 10px;
+  }
+  
+  .users-img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .line {
+    width: 100%;
+    color: grey;
+  }
+  
+  .chat-bottom-container {
+    border: 1px solid rgb(142, 138, 138);
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: auto;
+    position: fixed;
+    bottom: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 30px;
+    width: 77%;
+    margin-top: 30px;
+  }
+  
+  .search-input {
+    max-height: 40px;
+    width: 90%;
+    background-color: rgb(228, 237, 246);
+  }
+  
+  .emoji-picker-container {
+    position: absolute;
+    top: -460px; /* Adjust the value as needed */
+    right: 0;
+  }
+  
+  .emoji-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .message-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .chat-mid-container {
+    display: flex;
+    flex-direction: column; /* Reverse the order of messages */
+    overflow-y: auto; /* Enable scrolling */
+    padding: 10px; /* Increase margin to avoid overlap with the bottom container */
+  }
+
+  .chat-mid-container::-webkit-scrollbar {
+    width: 0 !important
+    }
+
+    .name-time{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .chat-message-username{
+        margin-right: 10px;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .chat-message-timestamp{
+        color: grey;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .chat-message-text {
+      background-color: #ffffff;
+      font-family: 'Montserrat';
+      font-weight: 500;
+      line-height: 20px;
+      font-size: 14px;
+      color: rgb(82, 79, 79);
+      padding: 10px;
+      border-radius: 10px;
+      border-top-left-radius: 0px;
+      display: inline-block;
+      max-width: 75%;
+      word-wrap: break-word; /* Ensure long words break to the next line */
+      overflow-wrap: break-word; /* Alternative property for word wrapping */
+      white-space: pre-wrap; /* Preserve line breaks and wrap long lines */
+    }
+    
+    .chat-item{
+        margin-bottom: 20px;
+    }
+
+    .chat-message{
+        margin-top: 5px;
+    }
+
+    .chat-message-container{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .name-logo {
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Montserrat';
+      font-weight: 500;
+      font-size: 24px;
+      color: white;
+      margin-right: 12px;
+
+    }
+
+    .logo-container{
+      width: 70px;
+    }
+    
+
+    .message-like{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .like-container{
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    .like-img{
+        height: 20px;
+        width: 20px;
+        color: grey;
+    }
+
+    .like-count{
+        color: grey;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 14px;
+    }
