@@ -46,3 +46,6 @@
     "gh-pages": "^5.0.0"
   }
 }
+
+git commit -m "Update gh-pages with build files"
+
